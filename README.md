@@ -3,6 +3,6 @@
 I am Hyeonbin Lee, Student at [Seoul National University of Science and Technology](https://en.seoultech.ac.kr/).
 
 My research interests include
-* :game: **Game**: Programming the game.
+* 🕹️: **Game**: Programming the game.
 
 This is my first github page. Thank you for coming.
