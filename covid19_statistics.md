@@ -1,3 +1,4 @@
+```python
 def normalize_data(n_cases, n_people, scale):
     # TODO) Calculate the number of cases per its population
     
@@ -20,7 +21,7 @@ print('| Region | Population | Ratio (%) |')
 print('| ------ | ---------- | --------- |')
 for idx, pop in enumerate(n_people):
     ratio =pop/sum_people*100 # TODO) The ratio of new cases to the total
-    print(f'| {regions[idx]} | {pop} | {ratio:.1f} |')
+    print('| %s | %d | %.1f |' % (regions[idx], pop, ratio))
 print()
 
 # TODO) Print COVID-19 new cases by region
@@ -32,5 +33,6 @@ print('| Region | New Cases | Ratio (%) | New Cases  / 1M |')
 print('| ------ | --------- | --------- |---------------- |')
 for idx, pop in enumerate(n_covid):
     ratio = round(pop/sum_covid, 1)*100 # TODO) The ratio of new cases to the total
-    print(f'| {regions[idx]} | {pop} | {ratio:.1f} | {norm_covid[idx]:.1f} |')
+    print('| %s | %d | %.1f | %.1f |' % (regions[idx], pop, ratio, norm_covid[idx]))
 print()
+```
